@@ -13,7 +13,12 @@
 
 ActiveRecord::Schema.define(version: 20140513111641) do
 
-# Could not dump table "listings" because of following NoMethodError
-#   undefined method `[]' for nil:NilClass
+  create_table "listings", force: true do |t|
+    t.string   "name"
+    t.text     "description"
+    t.decimal  "price"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
 
 end
