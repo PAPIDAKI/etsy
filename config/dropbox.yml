@@ -3,9 +3,9 @@ app_key: "ahzsqiafqrwpu4x"
 #app_secret: <%=ENV["APP_SECRET"]%>
 #access_token: "4ws96jkv9awrbbyf"
 #access_token: "4ws96jkv9awrbbyf"
-APP_SECRET: "r2ntw3582vtuvi6"
-ACCESS_TOKEN_SECRET: "pnj75qxczssozap"
+app_secret: "r2ntw3582vtuvi6"
+access_token_secret: "pnj75qxczssozap"
 
-access_token_secret: <%=ENV["ACCESS_TOKEN_SECRET"]%>
+#access_token_secret: <%=ENV["ACCESS_TOKEN_SECRET"]%>
 user_id: "137915"
 access_type: "app_folder"
