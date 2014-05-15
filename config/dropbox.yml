@@ -1,8 +1,9 @@
 app_key: "ahzsqiafqrwpu4x"
-#app_secret: <%=ENV["APP_SECRET"]%>
+
 access_token: "4ws96jkv9awrbbyf"
 #access_token: "4ws96jkv9awrbbyf"
-app_secret: "r2ntw3582vtuvi6"
+#app_secret: "r2ntw3582vtuvi6"
+app_secret: <%=ENV["APP_SECRET"]%>
 access_token_secret: "pnj75qxczssozap"
 
 #access_token_secret: <%=ENV["ACCESS_TOKEN_SECRET"]%>
