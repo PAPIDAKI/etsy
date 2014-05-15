@@ -3,7 +3,7 @@ app_key: "ahzsqiafqrwpu4x"
 access_token: "4ws96jkv9awrbbyf"
 #access_token: "4ws96jkv9awrbbyf"
 app_secret: "r2ntw3582vtuvi6"
-#access_token_secret: "pnj75qxczssozap"
+access_token_secret: "pnj75qxczssozap"
 
 #access_token_secret: <%=ENV["ACCESS_TOKEN_SECRET"]%>
 user_id: "137915"
