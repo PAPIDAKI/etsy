@@ -29,7 +29,6 @@ class ListingsController < ApplicationController
     respond_to do |format|
       if @listing.save
         format.html { redirect_to @listing, notice: 'Listing was successfully created.' }
-        format.json { render :show, status: :created, location: @listing }
       else
         format.html { render :new }
         format.json { render json: @listing.errors, status: :unprocessable_entity }
