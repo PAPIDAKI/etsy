@@ -2,7 +2,7 @@ Rails.application.routes.draw do
   devise_for :users
   resources :listings
 
-  get 'pages/abount',:path=>'pages/about'
+  get 'pages/about'
 
   get 'pages/contact'
   root 'listings#index'
